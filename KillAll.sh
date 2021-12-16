@@ -1,0 +1,32 @@
+pkill -f "paxos_proposers.py"; pkill -f "paxos_acceptors.py"; pkill -f "test_run.py";
+fuser -k 10200/tcp
+fuser -k 10201/tcp
+fuser -k 10202/tcp
+fuser -k 10203/tcp
+fuser -k 10204/tcp
+fuser -k 10210/tcp
+fuser -k 10211/tcp
+fuser -k 10212/tcp
+fuser -k 10213/tcp
+fuser -k 10214/tcp
+fuser -k 10220/tcp
+fuser -k 10221/tcp
+fuser -k 10222/tcp
+fuser -k 10223/tcp
+fuser -k 10224/tcp
+fuser -k 10230/tcp
+fuser -k 10231/tcp
+fuser -k 10232/tcp
+fuser -k 10233/tcp
+fuser -k 10234/tcp
+fuser -k 10240/tcp
+fuser -k 10241/tcp
+fuser -k 10242/tcp
+fuser -k 10243/tcp
+fuser -k 10244/tcp
+fuser -k 10250/tcp
+fuser -k 10251/tcp
+fuser -k 10252/tcp
+fuser -k 10253/tcp
+fuser -k 10254/tcp
+clear
